@@ -1,0 +1,7 @@
+h1 { // this is the selector
+  color: blue; // declaration which is made up of a property and a value
+}
+
+#navigation li { // # is to target an id but . to target a class so for example ".navigation"
+
+}
