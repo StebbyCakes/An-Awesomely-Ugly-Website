@@ -1,7 +1,68 @@
-h1 { // this is the selector
-  color: blue; // declaration which is made up of a property and a value
+
+
+body {
+  background-color: purple;
+}
+h1 {
+  text-align: center;
+  color: red;
+  font-size: 200px;
+}
+h2 {
+  border: 2px solid powderblue;
+  color: blue;
+  font-size: 20px;
+}
+h3 {
+  color: pink;
+  font-size: 20px;
+  text-align: center;
 }
 
-#navigation li { // # is to target an id but . to target a class so for example ".navigation"
+.Press-Start-2P {
+font-family: 'Press Start 2P', cursive;
+}
 
+.Parisienne{
+font-family: 'Parisienne', cursive;
+}
+
+.Monoton {
+font-family: 'Monoton', cursive;
+}
+.Rock-Salt {
+font-family: 'Rock Salt', cursive;
+}
+
+#navigation li {
+color: gold;
+}
+
+h4 {
+  text-align: center;
+  color: red;
+  font-size: 30px;
+}
+
+h5 {
+    text-align: center;
+    color: red;
+    font-size: 30px;
+}
+
+h6 {
+  text-align: center;
+  color: red;
+  font-size: 30px;
+}
+
+#image {
+   border-radius: 50%;
+   height: 200px;
+   width: 50%;
+   padding: 50px;
+   margin: 50px;
+}
+.newimg {
+  background: url("https://i.pinimg.com/originals/b9/56/59/b9565987b76d3f6819fa9931944f6c62.jpg")
 }
