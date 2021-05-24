@@ -1,12 +1,22 @@
 
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
 
 body {
   background-color: purple;
+  font-size: 10px;
 }
 h1 {
   text-align: center;
   color: red;
   font-size: 200px;
+  width: 400px;
+  /* This will make the text only show up in a box thats 400px wide instead of going across the screen left to right */
+  /* displaying inline block will allow you to have the boxes sitting side by side */
 }
 h2 {
   border: 2px solid powderblue;
@@ -62,7 +72,4 @@ h6 {
    width: 50%;
    padding: 50px;
    margin: 50px;
-}
-.newimg {
-  background: url("https://i.pinimg.com/originals/b9/56/59/b9565987b76d3f6819fa9931944f6c62.jpg")
 }
